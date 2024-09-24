@@ -1,0 +1,47 @@
+---
+layout: post
+---
+{% if page.epigraph %}
+  <style>
+    .epigraph-block {
+      font-size: 1em;
+      font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+      font-style: italic;
+      margin: 1em 0;
+      padding: 0 1em;
+      display: inline-block;
+      border-left: 0;
+      max-width: 50%;
+      padding-left: 1em;
+      padding-bottom: 1em;
+    }
+    .epigraph-block .quote {
+      margin: 0;
+    }
+    .epigraph-block .author {
+      font-size: 0.8em;
+      font-style: normal;
+      margin: 0;
+      text-align: right;
+    }
+  </style>
+  <blockquote class="epigraph-block">
+    <p class="quote">{{ page.epigraph.quote }}</p>
+    <p class="author">{{ page.epigraph.author }}</p>
+  </blockquote>
+{% endif %}
+
+{{ content }}
+<style>
+.img-link {
+  text-decoration: none !important;
+  border:0px !important;
+  outline:none;
+  border-width: 0px;
+  outline-width:0px;
+  border-bottom: none;
+}
+</style>
+
+<a href="https://notbyai.fyi" class="dark right img-link"><img src="/assets/img/Written-By-Human-Not-By-AI-Badge-black.svg" alt="Light mode only" loading="lazy"></a>
+<a href="https://notbyai.fyi" class="light right img-link"><img src="/assets/img/Written-By-Human-Not-By-AI-Badge-white.svg" alt="Dark mode only" loading="lazy"></a>
