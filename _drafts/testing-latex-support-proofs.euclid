@@ -1,0 +1,77 @@
+---
+layout: post-not-by-ai
+title: Testing LaTeX Support Custom Plugin
+math: true
+date: 2024-09-24 12:00:00 -0300
+categories: [Mathematics]
+tags: [real numbers]
+description: Testing LaTeX support in markdown
+epigraph:
+  quote: "Mathematics is the language in which God has written the universe."
+  author: Galileo Galilei
+---
+
+TODO:
+- Handle empty terms (Raise error)
+- Handle term name e.g \term{name}
+- Handle labels and refs
+
+Given the existence of two operations called **addition** and **multiplication** over the set of real number represented by $$ R $$ and the following axioms.
+\axiom
+\end
+
+\theorem
+Theorem description
+\end
+
+\corollary
+\end
+
+\theorem{Theorem name}
+\label{label}
+\end
+
+\ref{label}
+
+\theorem
+\label{label2}
+\end
+
+\definition
+\end
+
+\corollary
+\end
+
+\corollary
+\end
+
+\lemma
+\end
+
+\corollary
+\end
+
+\axiom
+\end
+
+\axiom
+\end
+
+\ref{labe2}
+
+\axiom
+\end
+
+\proof
+\end
+
+\theorem
+Empty
+\end
+
+\corollary
+\end
+
+\definition
+\end
