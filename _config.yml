@@ -14,7 +14,7 @@ timezone: America/Sao_Paulo
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Tonkatsu Engineering # the main title
+title: gnakayama # the main title
 
 tagline: I'm not sure I know what I'm doing # it will display as the sub-title
 
@@ -23,13 +23,13 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://tonkatsuengineering.com"
+url: "https://blog.gnakayama.me"
 
 github:
   username: GNakayama # change to your github username
 
-twitter:
-  username: gnakayamas # change to your twitter username
+# twitter:
+#   username: gnakayamas # change to your twitter username
 
 social:
   # Change to your full name.
@@ -38,7 +38,7 @@ social:
   email: guilherme.nakayama.s@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/gnakayamas # change to your twitter homepage
+    # - https://twitter.com/gnakayamas # change to your twitter homepage
     - https://github.com/GNakayama # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
