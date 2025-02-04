@@ -3,9 +3,6 @@
 - type: github
   icon: "fab fa-github"
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
-
 - type: reddit
   icon: 'fa-brands fa-reddit'
   url: 'https://www.reddit.com/user/gnakayama/'
